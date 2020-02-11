@@ -75,7 +75,16 @@ body {
   right: 20px;
   bottom: 210px;
 }
-
+.fa-play-circle {
+  position: relative;
+  right: 30%;
+  font-size: 4.5em !important;
+  bottom: 30%;
+}
+.fa-plus-square {
+  position: relative;
+  top: 40%;
+}
 .fas {
   padding-top: 50px;
   font-size: 1.5em;
@@ -90,8 +99,6 @@ body {
 .fa-play-circle:hover {
   color: rgb(90, 5, 90);
   cursor: pointer;
-  position: relative;
-  right: 15%;
 }
 .fa-plus-square:hover {
   color: rgb(90, 5, 90);
@@ -100,13 +107,63 @@ body {
 
 .fa-backward {
   position: relative;
-  bottom: 132px;
+  top: -180px;
   left: 5%;
   font-size: 0.9em;
 }
 .fa-forward {
   position: relative;
   left: 85%;
-  bottom: 132px;
+  top: -180px;
   font-size: 0.9em;
+}
+
+.menu {
+  width: 100%;
+  height: 70px;
+  background: #1f1f1f;
+  box-shadow: 0 1px 6px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+li {
+  position: relative;
+  right: 30px;
+  top: 15px;
+  border-radius: 3px;
+  padding: 5px;
+}
+.log {
+  position: relative;
+  right: 50px;
+  background: #1ecf5f;
+  color: black;
+}
+
+.sign {
+  border: 1px solid white;
+}
+
+.log:hover {
+  background: #000;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+.sign:hover {
+  background: #3d9cf1;
+  color: black;
+  border: none;
+  cursor: pointer;
 }
