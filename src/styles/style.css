@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #1f1f1f;
+background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23fcc21d' fill-opacity='0.14' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player{
+    width: 20%;
+    height: 400px;
+    background: #fcc21d;
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px rgb(14, 14, 14);
+}
+
+.img-song{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+    top: 35px;
+    right: 50px;
+    background-image: url(https://images.pexels.com/photos/2011824/pexels-photo-2011824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0.5px 0.5px 7px black;
+}
+
+.title-song{
+    position: relative;
+    top: 100px;
+    left: 20px;
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.artist-album{
+    position: relative;
+    top: 100px;
+    left: 22px;
+    font-size: .6em;
+    color: white;
+    letter-spacing: 3px;
+}
+.progress-bar{
+    width: 70%;
+    height: 5px;
+    background: #bb8f16;
+    position: relative;
+    top: 150px;
+    left: 43px;
+    border-radius: 30px;
+}
+
+.button-right-pad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+    position: relative;
+    right: 20px;
+    bottom: 210px;
+}
+
+.fas{
+    padding-top: 50px;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+}
+
+.fa-heart:hover{
+    color: rgb(226, 53, 53);
+    cursor: pointer;
+}
+
+.fa-play-circle:hover{
+    color: rgb(90, 5, 90);
+    cursor: pointer;
+}
+.fa-plus-square:hover{
+    color: rgb(90, 5, 90);
+    cursor: pointer;
+}
+
+.fa-backward{
+    position: relative;
+    bottom: 132px;
+    left: 10px;
+    font-size: .9em;
+
+}
+.fa-forward{
+    position: relative;
+    left: 260px;
+    bottom: 132px;
+    font-size: .9em;
+}
