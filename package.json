@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html",
-    "deploy": "gh-pages -d fist"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
